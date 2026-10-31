@@ -1,0 +1,35 @@
+LIBRARY_SNAPSHOT,1
+BOOK,1,"The Clockwork Orchard","Mira Vale","Fantasy",3
+BOOK,2,"Maps of Quiet Rivers","Jon Reed","Travel",2
+BOOK,3,"Practical Starlight","Lena Moss","Science",2
+BOOK,4,"A Garden, After Rain","Theo Brook","Fiction",2
+BOOK,5,"The ""Small"" Machine","Ada Finch","Technology",2
+BOOK,6,"Paper Moons","Nora Ash","Poetry",1
+BOOK,7,"The Copper Compass","Eli Wren","Adventure",2
+BOOK,8,"Signals from Willow Bay","Iris Pike","Mystery",2
+BOOK,9,"Learning with Lanterns","Owen Lake","Education",2
+BOOK,10,"Everyday Algorithms","Ruby Glen","Technology",3
+BOOK,11,"Portraits of Tomorrow","Leo Birch","Art",1
+BOOK,12,"The Patient Mountain","Zara Snow","Nature",2
+BOOK,13,"Recipes for Cloudy Days","Finn Clay","Cooking",2
+BOOK,14,"An Atlas of Imaginary Cities and Their Remarkably Long and Winding Streets","Sage West","Fantasy",2
+BOOK,15,"The Last Platform","Aria Stone","Fiction",0
+MEMBER,1,"Alex Example","alex@example.invalid",1
+MEMBER,2,"Blair Example","blair@example.invalid",1
+MEMBER,3,"Casey Example","casey@example.invalid",1
+MEMBER,4,"Devon Example","devon@example.invalid",1
+MEMBER,5,"Emery Example","emery@example.invalid",1
+MEMBER,6,"Frankie Example","frankie@example.invalid",1
+MEMBER,7,"Gray Example","gray@example.invalid",1
+MEMBER,8,"Harper Example","harper@example.invalid",0
+LOAN,1,1,1,2026-01-02,2026-01-16,2026-01-10
+LOAN,2,2,2,2026-01-03,2026-01-17,2026-01-11
+LOAN,3,3,3,2026-01-04,2026-01-18,2026-01-12
+LOAN,4,4,4,2026-01-05,2026-01-19,2026-01-13
+LOAN,5,5,8,2026-01-06,2026-01-20,2026-01-14
+LOAN,6,6,5,2026-01-07,2026-01-21,2026-01-15
+LOAN,7,7,1,2026-01-08,2026-01-22,
+LOAN,8,8,2,2026-01-09,2026-01-23,
+LOAN,9,9,3,2026-01-10,2026-01-24,
+LOAN,10,10,4,2026-01-11,2026-01-25,
+END,15,8,10

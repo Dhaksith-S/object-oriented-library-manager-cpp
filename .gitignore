@@ -1,0 +1,16 @@
+/build*/
+/runtime/
+*.tmp
+*.bak
+*.stage
+*.corrupt
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.env*
+*.exe
+*.o
+*.a
+*.dll
+*.log

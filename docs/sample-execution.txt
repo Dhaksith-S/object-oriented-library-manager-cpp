@@ -1,0 +1,436 @@
+AUTHENTIC APPLICATION EXECUTION
+Captured by tools/capture_execution.py from two separate executable processes.
+The temporary database is removed after capture. Contacts are fictional.
+Session labels and supplied stdin are capture metadata; OUTPUT blocks are unedited program output.
+
+=== First run: invalid input, import, catalog, registration, search, issue, availability, return, history, save ===
+INPUT (one answer per line):
+abc
+11
+2
+4
+Taylor Example
+taylor@example.invalid
+3
+title
+CLOCKWORK
+6
+1
+9
+10
+1
+7
+11
+9
+12
+13
+14
+OUTPUT:
+No saved records. Starting an empty library.
+Changes are saved after each successful operation.
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Error: Use digits only; negative numbers and signs are not allowed.
+Operation was not completed.
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Sample data imported. Saved.
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: ID          Title                          Author                 Genre             Available/Total
+1           The Clockwork Orchard          Mira Vale              Fantasy           3/3
+2           Maps of Quiet Rivers           Jon Reed               Travel            2/2
+3           Practical Starlight            Lena Moss              Science           2/2
+4           A Garden, After Rain           Theo Brook             Fiction           2/2
+5           The "Small" Machine            Ada Finch              Technology        2/2
+6           Paper Moons                    Nora Ash               Poetry            1/1
+7           The Copper Compass             Eli Wren               Adventure         1/2
+8           Signals from Willow Bay        Iris Pike              Mystery           1/2
+9           Learning with Lanterns         Owen Lake              Education         1/2
+10          Everyday Algorithms            Ruby Glen              Technology        2/3
+11          Portraits of Tomorrow          Leo Birch              Art               1/1
+12          The Patient Mountain           Zara Snow              Nature            2/2
+13          Recipes for Cloudy Days        Finn Clay              Cooking           2/2
+14          An Atlas of Imaginary Citie... Sage West              Fantasy           2/2
+15          The Last Platform              Aria Stone             Fiction           0/0
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Member name: Contact (fictional for demos): Member registered. ID: 9 Saved.
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Search field (title/author/id/genre): Search text: ID          Title                          Author                 Genre             Available/Total
+1           The Clockwork Orchard          Mira Vale              Fantasy           3/3
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Book ID: Member ID: Book issued. Loan ID: 11; due: 2026-11-14 Saved.
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Book ID: Available copies: 2 / 3
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Loan ID: Book returned. Loan ID: 11 Saved.
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Loan        Book        Member      Issued       Due          Returned/State
+1           1           1           2026-01-02   2026-01-16   2026-01-10
+2           2           2           2026-01-03   2026-01-17   2026-01-11
+3           3           3           2026-01-04   2026-01-18   2026-01-12
+4           4           4           2026-01-05   2026-01-19   2026-01-13
+5           5           8           2026-01-06   2026-01-20   2026-01-14
+6           6           5           2026-01-07   2026-01-21   2026-01-15
+7           7           1           2026-01-08   2026-01-22   ACTIVE
+8           8           2           2026-01-09   2026-01-23   ACTIVE
+9           9           3           2026-01-10   2026-01-24   ACTIVE
+10          10          4           2026-01-11   2026-01-25   ACTIVE
+11          1           9           2026-10-31   2026-11-14   2026-10-31
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Library records saved.
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Books: 15 | Members: 9 | Active loans: 4 | Returned loans: 7 | Total copies: 28
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Goodbye. All successful changes are saved.
+STDERR:
+(empty)
+EXIT CODE: 0
+
+=== Restart: reload, member record, restored availability, loan history, summary ===
+INPUT (one answer per line):
+5
+10
+1
+9
+13
+14
+OUTPUT:
+Saved records loaded.
+Changes are saved after each successful operation.
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: ID          Name                       Contact                        Status      Active loans
+1           Alex Example               alex@example.invalid           Active      1
+2           Blair Example              blair@example.invalid          Active      1
+3           Casey Example              casey@example.invalid          Active      1
+4           Devon Example              devon@example.invalid          Active      1
+5           Emery Example              emery@example.invalid          Active      0
+6           Frankie Example            frankie@example.invalid        Active      0
+7           Gray Example               gray@example.invalid           Active      0
+8           Harper Example             harper@example.invalid         Inactive    0
+9           Taylor Example             taylor@example.invalid         Active      0
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Book ID: Available copies: 3 / 3
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Loan        Book        Member      Issued       Due          Returned/State
+1           1           1           2026-01-02   2026-01-16   2026-01-10
+2           2           2           2026-01-03   2026-01-17   2026-01-11
+3           3           3           2026-01-04   2026-01-18   2026-01-12
+4           4           4           2026-01-05   2026-01-19   2026-01-13
+5           5           8           2026-01-06   2026-01-20   2026-01-14
+6           6           5           2026-01-07   2026-01-21   2026-01-15
+7           7           1           2026-01-08   2026-01-22   ACTIVE
+8           8           2           2026-01-09   2026-01-23   ACTIVE
+9           9           3           2026-01-10   2026-01-24   ACTIVE
+10          10          4           2026-01-11   2026-01-25   ACTIVE
+11          1           9           2026-10-31   2026-11-14   2026-10-31
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Books: 15 | Members: 9 | Active loans: 4 | Returned loans: 7 | Total copies: 28
+
+==========================================
+        LIBRARY MANAGEMENT SYSTEM
+==========================================
+1. Add Book
+2. View All Books
+3. Search Books
+4. Register Member
+5. View Members
+6. Issue / Borrow Book
+7. Return Book
+8. View Active Loans
+9. View Loan History
+10. Check Book Availability
+11. Import Sample Library Data
+12. Save Library Records
+13. Library Summary
+14. Exit
+==========================================
+Choice: Goodbye. All successful changes are saved.
+STDERR:
+(empty)
+EXIT CODE: 0
