@@ -134,5 +134,15 @@ windows into `docs/screenshots/`, excluding personal paths or unrelated windows.
 
 ## GitHub publication status
 
-Local project and evidence are ready. Public repository and release publication
-will be verified before the final delivery; this section is updated after upload.
+- Public repository: [Dhaksith-S/object-oriented-library-manager-cpp](https://github.com/Dhaksith-S/object-oriented-library-manager-cpp).
+- GitHub metadata confirmed **PUBLIC**, with default branch **main**. The first
+  uploaded commit was `09e5680524e1e98a5d64a74d96c9331fcb74e075`.
+- The remote recursive file tree matched all **32 tracked files**, including README,
+  source, tests, UML, fictional sample records and execution evidence. No builds,
+  runtime databases, credentials or personal workstation paths were committed.
+- Source release: [v1.0.0](https://github.com/Dhaksith-S/object-oriented-library-manager-cpp/releases/tag/v1.0.0),
+  with [release notes](RELEASE_NOTES.md). The tag identifies the validated source;
+  GitHub supplies the source archive downloads.
+- The project uses an isolated repository rooted in the workspace. No other
+  repository was modified, no force push was used, and no optional CI workflow
+  permission was required. Build outputs and runtime files are ignored.
